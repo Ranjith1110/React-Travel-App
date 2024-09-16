@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 import { TiThMenu } from "react-icons/ti";
 import { MdCancel } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [doorIsOpen, setDoorIsOpen] = useState(false); // Initially closed
@@ -18,9 +19,9 @@ const Navbar = () => {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a className={item.cName} href="#">
+              <Link className={item.cName} to={item.url}>
                 {item.icon} {item.title}
-              </a>
+              </Link>
             </li>
           );
         })}

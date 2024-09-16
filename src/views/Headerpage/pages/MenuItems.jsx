@@ -6,31 +6,31 @@ import { IoMdContact } from "react-icons/io";
 export const MenuItems = [
     {
         title: "Home",
-        href: "#",
+        url: "/home",
         cName: "nav-links",
         icon: <FaHouse />
     },
     {
         title: "About",
-        href: "#",
+        url: "/about",
         cName: "nav-links",
         icon: <BsInfoCircleFill />
     },
     {
         title: "Service",
-        href: "#",
+        url: "/service",
         cName: "nav-links",
         icon: <MdHomeRepairService />
     },
     {
         title: "Contact",
-        href: "#",
+        url: "/contact",
         cName: "nav-links",
         icon: <IoMdContact />
     },
     {
         title: "Sign Up",
-        href: "#",
+        url: "/",
         cName: "nav-link-mob"
     }
 ]
