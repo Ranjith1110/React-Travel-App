@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import "./index.css"
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import Service from './components/Service'
-import Contact from './components/Contact'
+import Home from './routes/Home'
+import About from './routes/About'
+import Service from './routes/Service'
+import Contact from './routes/Contact'
 
 
 const App = () => {
