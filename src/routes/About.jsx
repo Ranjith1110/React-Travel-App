@@ -1,11 +1,16 @@
+import Hero from "../components/hero" 
+import AboutImg from "../assets/Aboutbanner.jpg"
 
-
-const About = () => {
-    return (
-        <>
-            <h1>This Is About</h1>
-        </>
-    )
+const Home = () => {
+  return (
+    <>
+      <Hero
+        cName="hero"
+        heroImg={AboutImg}
+        title="About"
+      ></Hero>
+    </>
+  )
 }
 
-export default About
+export default Home

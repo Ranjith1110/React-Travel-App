@@ -1,0 +1,33 @@
+
+.hero-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text>h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-text>p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+.hero-text .show{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #151516;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 6px;
+}
+.hero-text .show:hover{
+    background-color: #01959a;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+

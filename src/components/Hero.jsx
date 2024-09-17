@@ -1,13 +1,20 @@
 import "./HeroStyle.css"
-import Herobanner from '../assets/Heropage/Herobanner.jpg';
 
 
-const hero = () => {
+const hero = (props) => {
   return (
     <>
-      <div className="hero">
-      <img width={"100%"} src={Herobanner} alt="travel-img" />
+      <div className={`${props.cName} w-100 position-relative`}>
+        <img className="w-100 vh-100 object-fit-cover" src={props.heroImg} alt="travel-img" />
+
+        <div className="w-100 hero-text text-center position-absolute">
+          <h1 className={props.hClass}>{props.title}</h1>
+          <p className="mb-4">{props.content}</p>
+          <a className={props.btnClass} href={props.url}>{props.buttonText}</a>
+        </div>
       </div>
+
+
     </>
   )
 }
