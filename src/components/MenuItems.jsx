@@ -3,12 +3,12 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { MdHomeRepairService } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 
-export const MenuItems = [
+export const MenuItems = [    
     {
         title: "Home",
         url: "/",
         cName: "nav-links",
-        icon: <FaHouse />
+        icon: <FaHouse />,
     },
     {
         title: "About",

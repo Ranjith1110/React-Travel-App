@@ -1,8 +1,14 @@
+import "./HeroStyle.css"
+import Herobanner from '../assets/Heropage/Herobanner.jpg';
 
 
 const hero = () => {
   return (
-    <div>hero</div>
+    <>
+      <div className="hero">
+      <img width={"100%"} src={Herobanner} alt="travel-img" />
+      </div>
+    </>
   )
 }
 
