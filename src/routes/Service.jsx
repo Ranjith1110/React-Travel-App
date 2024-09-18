@@ -1,11 +1,16 @@
+import Hero from "../components/hero" 
+import ServiceImg from "../assets/Servicebanner.jpg"
 
-
-const Service = () => {
-    return (
-        <>
-            <h1>This Is Service</h1>
-        </>
-    )
+const Home = () => {
+  return (
+    <>
+      <Hero
+        cName="hero"
+        heroImg={ServiceImg}
+        title="Service"
+      ></Hero>
+    </>
+  )
 }
 
-export default Service
+export default Home

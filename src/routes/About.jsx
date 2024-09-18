@@ -1,5 +1,5 @@
 import Hero from "../components/hero" 
-import AboutImg from "../assets/Aboutbanner.jpg"
+import AboutImg from "../assets/Aboutbanners.jpg"
 
 const Home = () => {
   return (

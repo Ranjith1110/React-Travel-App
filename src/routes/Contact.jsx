@@ -1,11 +1,16 @@
+import Hero from "../components/hero" 
+import ContactImg from "../assets/Contactbanner.jpg"
 
-
-const Contact = () => {
-    return (
-        <>
-            <h1>This Is Contact</h1>
-        </>
-    )
+const Home = () => {
+  return (
+    <>
+      <Hero
+        cName="hero"
+        heroImg={ContactImg}
+        title="Contact"
+      ></Hero>
+    </>
+  )
 }
 
-export default Contact
+export default Home

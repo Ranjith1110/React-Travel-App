@@ -1,5 +1,5 @@
 import Hero from "../components/hero" 
-import Herobanner from '../assets/Herobanner.jpg';
+import Herobanner from '../assets/Herobanners.jpg';
 
 const Home = () => {
   return (
