@@ -1,4 +1,4 @@
-import Hero from "../components/hero" 
+import Hero from "../components/hero";
 import Destination from "../components/Destination";
 import Herobanner from '../assets/Herobanners.jpg';
 
