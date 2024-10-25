@@ -1,6 +1,5 @@
 import "./HeroStyle.css"
 
-
 const hero = (props) => {
   return (
     <>

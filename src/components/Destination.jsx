@@ -1,6 +1,9 @@
+import DestinationData from "./DestinationData"
+import "./DestinationStyle.css"
 import Travel1 from "../assets/destination-1.jpg";
 import Travel2 from "../assets/destination-2.jpg";
-import "./DestinationStyle.css"
+import Travel3 from "../assets/destination-3.jpg";
+import Travel4 from "../assets/destination-4.jpg";
 
 const Destination = () => {
   return (
@@ -11,21 +14,29 @@ const Destination = () => {
           <p>Tour give you the opportunity to see a lot, within a time frame</p>
         </div>
 
-        <div className="first-description d-flex justify-content-between align-items-center">
-          <div>
-            <h3>Taal Valcano</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium omnis natus facere eligendi tempore laboriosam possimus animi, aliquid molestias quod delectus maiores, quidem, quasi suscipit nobis atque quibusdam soluta!
-              Doloremque odit possimus doloribus praesentium eius placeat, ipsum aliquid beatae dolorum exercitationem omnis ut labore error asperiores quidem enim quibusdam, soluta numquam, cum delectus. Dolor commodi quidem voluptatibus velit deleniti.</p>
-          </div>
+        <DestinationData
 
-          <div className="d-flex gap-2">
-            <img className="object-fit-cover" src={Travel1} alt="travel-img" />
-            <img className="object-fit-cover mt-3" src={Travel2} alt="travel-img" />
-          </div>
+          className="first-description"
+          heading="Taal Valcanooo"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium omnis natus facere eligendi tempore laboriosam possimus animi, aliquid molestias quod delectus maiores, quidem, quasi suscipit nobis atque quibusdam soluta!
+                        Doloremque odit possimus doloribus praesentium eius placeat, ipsum aliquid beatae dolorum exercitationem omnis ut labore error asperiores quidem enim quibusdam, soluta numquam, cum delectus. Dolor commodi quidem voluptatibus velit deleniti voluptatibus velit deleniti."
+          img1={Travel1}
+          img2={Travel2}
 
-        </div>
+        />
+
+        <DestinationData
+
+          className="first-description-reverse"
+          heading="Mt. Dadu Valcanooo"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium omnis natus facere eligendi tempore laboriosam possimus animi, aliquid molestias quod delectus maiores, quidem, quasi suscipit nobis atque quibusdam soluta!
+              Doloremque odit possimus doloribus praesentium eius placeat, ipsum aliquid beatae dolorum exercitationem omnis ut labore error asperiores quidem enim quibusdam, soluta numquam, cum delectus. Dolor commodi quidem voluptatibus velit deleniti voluptatibus velit deleniti."
+          img1={Travel3}
+          img2={Travel4}
+
+        />
+
       </div>
-
     </>
   )
 }

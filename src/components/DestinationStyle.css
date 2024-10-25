@@ -11,21 +11,47 @@
     font-weight: 700;
 }
 
-.first-description>div:first-child{
-    width: 50%;
-    padding: 20px;
+.first-description>div:first-child>h3,
+.first-description-reverse>div:first-child>h3{
+    font-size: 30px;
+    font-weight: 700;
 }
-.first-description>div:last-child{
+
+.first-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.first-description-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.first-description>div:first-child,
+.first-description-reverse>div:first-child{
+    width: 50%;
+    padding: 25px;
+}
+.first-description>div:last-child,
+.first-description-reverse>div:last-child{
     width: 50%;
 }
 
-.first-description>div:last-child>img {
-    width: 250px;
-    height: 300px;
+.first-description>div:last-child>img,
+.first-description-reverse>div:last-child>img {
+    width: 50%;
+    height: 350px;
     border-radius: 10px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.first-description>div:last-child>img:hover{
+.first-description>div:last-child>img:hover,
+.first-description-reverse>div:last-child>img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
@@ -34,20 +60,24 @@
     .destination{
         margin: 4rem 2rem;
     }
-    .first-description{
+    .first-description,
+    .first-description-reverse{
         flex-direction: column-reverse;
         padding: 0px 0px 0px 0px;
     }
-    .first-description>div:first-child{
+    .first-description>div:first-child,
+    .first-description-reverse>div:first-child{
         width: 100%;
     }
-    .first-description>div:last-child{
+    .first-description>div:last-child,
+    .first-description-reverse>div:last-child{
         width: 100%;
         margin: 1.8rem 0px;
         justify-content: space-evenly;
         
     }
-    .first-description>div:last-child>img{
+    .first-description>div:last-child>img,
+    .first-description-reverse>div:last-child>img{
         height: 230px;
     }
     
