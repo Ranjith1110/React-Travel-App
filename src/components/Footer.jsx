@@ -51,6 +51,8 @@ const Footer = () => {
                     <a href="/">License</a>
                 </div>
             </div>
+
+            <p class="mb-0 pt-2">Copyright All Rights Reserved ©</p>
         </div>
     )
 }

@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
           );
         })}
-        <button>Sign Up</button>
+        {/* <button>Sign Up</button> */}
       </ul>
     </nav>
   );

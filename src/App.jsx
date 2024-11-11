@@ -6,6 +6,7 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Service from './routes/Service'
 import Contact from './routes/Contact'
+import SignUp from './routes/SignUp'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/about" element={<About></About>} />
                 <Route path="/service" element={<Service></Service>} />
                 <Route path="/contact" element={<Contact></Contact>} />
+                <Route path="/signup" element={<SignUp></SignUp>} />
             </Routes>
 
             <Navbar></Navbar>
