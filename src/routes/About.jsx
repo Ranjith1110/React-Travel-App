@@ -1,5 +1,7 @@
 import Hero from "../components/hero" 
 import AboutImg from "../assets/Aboutbanners.jpg"
+import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
         heroImg={AboutImg}
         title="About"
       ></Hero>
+      <AboutUs />
+      <Footer />
     </>
   )
 }

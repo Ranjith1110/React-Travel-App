@@ -1,5 +1,7 @@
 import Hero from "../components/hero" 
 import ContactImg from "../assets/Contactbanner.jpg"
+import Footer from "../components/Footer"
+import ContactForm from "../components/ContactForm"
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
         heroImg={ContactImg}
         title="Contact"
       ></Hero>
+      <ContactForm />
+      <Footer />
     </>
   )
 }

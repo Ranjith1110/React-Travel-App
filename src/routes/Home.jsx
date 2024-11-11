@@ -2,6 +2,7 @@ import Hero from "../components/hero";
 import Herobanner from '../assets/Herobanners.jpg';
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       ></Hero>
       <Destination></Destination>
       <Trip></Trip>
+      <Footer />
     </>
   )
 }
