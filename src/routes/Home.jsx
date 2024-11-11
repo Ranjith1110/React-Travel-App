@@ -1,6 +1,7 @@
 import Hero from "../components/hero";
-import Destination from "../components/Destination";
 import Herobanner from '../assets/Herobanners.jpg';
+import Destination from "../components/Destination";
+import Trip from "../components/Trip";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         buttonText="Travel Plan"
       ></Hero>
       <Destination></Destination>
+      <Trip></Trip>
     </>
   )
 }
